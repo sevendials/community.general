@@ -55,7 +55,7 @@ class CallbackModule(CallbackBase):
                 self.FAILED_VOICE = 'Zarvox'
                 self.REGULAR_VOICE = 'Trinoids'
                 self.HAPPY_VOICE = 'Cellos'
-                self.LASER_VOICE = 'Princess'
+                self.LASER_VOICE = 'Superstar'
         except ValueError:
             try:
                 self.synthesizer = get_bin_path('espeak')
